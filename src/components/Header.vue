@@ -1,7 +1,7 @@
 <template>
   <div id="header">
   <div id="headerImageContainer">
-    <img src="~@/assets/logo.png" id="headerImage" />
+    <a href="#top"><img src="~@/assets/splashwhite.png" id="headerImage" /></a>
   </div>
   </div>
 </template>
@@ -15,9 +15,11 @@
   background-color: #3fb1ea;
   /* opacity: 80%; */
 }
+
 #headerImageContainer {
     float: left;
     padding: 8px;
+    padding-left:5vh;
 }
 #headerImage {
   height: 80%;
@@ -25,6 +27,6 @@
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: white;
+
 }
 </style>
