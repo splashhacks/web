@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <div style="height: 100vh">
+    <div style="height: 100vh; z-index: 20;">
       <img alt="Vue logo" src="./assets/logo.png" style=" width: 50vw;" />
+      <h1>November 6-8</h1>
+      <a href="https://forms.gle/HpvPySwZnRnmfyGB9">Register now</a>
     </div>
     <Home />
   </div>

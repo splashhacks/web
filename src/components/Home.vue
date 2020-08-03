@@ -1,14 +1,29 @@
 <template>
-  <div style="height: 100vh; background-color: #d9faff;">
+
+  <div>
+     <Header/>
     <div class="content">
-      <div class="card">content goes here</div>
+     
+       <div class="card">content goes here</div> 
+    </div>
+    <div class="content">
+     
+       <div class="card">content goes here</div> 
     </div>
   </div>
-</template>
 
+</template>
+<script>
+import Header from "./Header.vue";
+export default {
+  components :{
+    Header
+  }
+}
+</script>
 <style scoped>
 .content {
-  padding: 0pt 30pt 0pt 30pt;
+  height: 200vh;
 }
 .card {
   padding: 20pt;
