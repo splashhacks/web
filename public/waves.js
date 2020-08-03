@@ -30,6 +30,7 @@ Spring.prototype.update = function () {
 
 function createPath(strength) {
     var path = new Path({
+        // Wave color here
         fillColor: "#3fb1ea",
     });
     springs = [];
