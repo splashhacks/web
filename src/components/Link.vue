@@ -1,7 +1,5 @@
 <template>
-  <a :href="id" class="link">
-    {{ name }}
-  </a>
+  <a :href="id" class="link">{{ name }}</a>
 </template>
 <style scoped>
 .link {

@@ -1,16 +1,15 @@
 <template>
   <div id="header">
     <div id="headerImageContainer">
-      <a href="#top"><img src="~@/assets/splashwhite.png" id="headerImage"/></a>
+      <a href="#top">
+        <img src="~@/assets/splashwhite.png" id="headerImage" />
+      </a>
     </div>
     <div id="headerLinksContainer">
       <Link id="#About" name="About" />
       <Link id="#Prizes" name="Prizes" />
       <Link id="#FAQ" name="FAQ" />
       <Link id="#Team" name="Team" />
-
-      
-
     </div>
   </div>
 </template>
