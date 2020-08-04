@@ -4,6 +4,7 @@
       <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
       <h1 style=" margin-top: 2px;">November 6-8</h1>
       <RegisterButton/>
+      
     </div>
     <Home />
   </div>

@@ -2,10 +2,10 @@
 
   <div>
      <Header/>
-    <div class="content">
+    <div class="content" id="About">
      
        <div class="card">
-         <h1 class="subtitle">
+         <h1 class="subtitle" >
          About <img src="~@/assets/logo.png" id="smallImg">
          </h1>
       </div> 
