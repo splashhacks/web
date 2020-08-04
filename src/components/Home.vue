@@ -183,7 +183,7 @@ th {
 }
 
 .content {
-  padding-top: 0px;
+  padding-top: 80px;
 }
 .subtitle {
   color: #3fb1ea;
