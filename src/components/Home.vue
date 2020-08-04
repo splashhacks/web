@@ -2,43 +2,25 @@
   <div>
     <Header />
     <div class="content" id="About">
-      <div class="card">
-        <h1 class="subtitle">
-          About <img src="~@/assets/logo.png" id="smallImg" />
-        </h1>
-      </div>
-      <div class="infoBox">
-        <!-- Placeholder image (probably doesn't need an image anyway) -->
-        <div><img src="~@/assets/helping.jpg" id="infoImg" /></div>
-        <div id="infoDetails">
-          <pre>
-        While most online Hackathons are great experiences 
-        for learning, testing out new ideas, and advancing 
-        technical skills, they tend to focus on individual 
-        teams more than the Hacker Community as a whole. 
-        At SplashHacks, we aim to provide a stimulating and 
-        deeply interconnected event for new and advanced 
-        programmers, graphic designers, and technical visionaries 
-        alike. During our event, high school and college students 
-        will have a 36-hour period to bring their ideas to life, 
-        filled with events for peer-to-peer connection and collaboration. </pre
-          >
+      <div class="card"></div>
+      <div class="stripeContent">
+        <div class="stripeColumn">
+          <img src="~@/assets/helping.jpg" style="border-radius: 50%; height: 400px" />
+        </div>
+        <div class="stripeColumn">
+          <h1>WHAT MAKES US DIFFERENT</h1>
+          <p1>While most online Hackathons are great experiences for learning, testing out new ideas, and advancing technical skills, they tend to focus on individual teams more than the Hacker Community as a whole. At SplashHacks, we aim to provide a stimulating and deeply interconnected event for new and advanced programmers, graphic designers, and technical visionaries alike. During our event, high school and college students will have a 36-hour period to bring their ideas to life, filled with events for peer-to-peer connection and collaboration.</p1>
         </div>
       </div>
     </div>
     <div class="content" id="Prizes">
       <div class="card">
-        <h1 class="subtitle">
-          Prizes
-        </h1>
-        <img src="~@/assets/prizes.png" height="300px"/>
+        <img src="~@/assets/prizes.png" height="300px" />
       </div>
     </div>
     <div class="content" id="FAQ">
       <div class="card">
-        <h1 class="subtitle">
-          Frequently Asked Questions
-        </h1>
+        <h1 class="subtitle">Frequently Asked Questions</h1>
         <table id="centerTable">
           <tr>
             <td>What are hackathons?</td>
@@ -107,21 +89,17 @@
       <div class="card">
         <!-- <h1 class="subtitle">
       Sponsors
-      </h1> -->
+        </h1>-->
       </div>
     </div>
     <div class="content" id="Team">
       <div class="card">
-        <h1 class="subtitle">
-          SplashHacks Team
-        </h1>
+        <h1 class="subtitle">SplashHacks Team</h1>
       </div>
     </div>
-    <div class="bottomNavBar">
+    <div>
       <div class="card">
-        <h1 class="subtitle">
-          Ready? Register now!
-        </h1>
+        <h1 class="subtitle">Ready? Register now!</h1>
       </div>
     </div>
   </div>
@@ -158,37 +136,35 @@ th {
   width: 100%;
 }
 
-.infoBox {
+.stripeContent {
+  padding: 30px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-auto-columns: 1fr;
+  margin: 0pt 100pt 0pt 100pt;
 }
 
-#infoImg {
-  height: 35vh;
-  vertical-align: -15%;
-  border-radius: 50%;
+.stripeColumn {
+  text-align: left;
+  grid-row: 1;
+  margin: auto;
 }
 
 #infoDetails {
   text-align: left;
-  justify-content: center;
+  text-align: middle;
   font-size: 18px;
+  height: 100%;
+  grid-template-columns: repeat(1fr);
 }
 
-#smallImg {
-  height: 8vh;
-  vertical-align: -15%;
-}
-
-.content {
-  padding-top: 80px;
-}
-.subtitle {
+h1 {
   color: #3fb1ea;
-  font-size: 50px;
-  margin-top: 1vh;
+  font-size: 35pt;
+}
+
+p1 {
+  font-size: 20pt;
 }
 .card {
   padding: 20pt;
