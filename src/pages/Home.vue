@@ -7,7 +7,7 @@
           <img src="~@/assets/helping.jpg" style="border-radius: 50%; height: 400px" />
         </div>
         <div class="stripeColumn">
-          <h1>WHAT MAKES US DIFFERENT</h1>
+          <h1 >WHAT MAKES US DIFFERENT</h1>
           <p1>While most online Hackathons are great experiences for learning, testing out new ideas, and advancing technical skills, they tend to focus on individual teams more than the Hacker Community as a whole. At SplashHacks, we aim to provide a stimulating and deeply interconnected event for new and advanced programmers, graphic designers, and technical visionaries alike. During our event, high school and college students will have a 36-hour period to bring their ideas to life, filled with events for peer-to-peer connection and collaboration.</p1>
         </div>
       </div>
@@ -74,5 +74,8 @@ export default {
   text-align: left;
   grid-row: 1;
   margin: auto;
+}
+.stripeLeft{
+  font-weight: 800;
 }
 </style>

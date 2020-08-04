@@ -66,7 +66,7 @@
 <style scoped>
 table {
   font-size: 20px;
-  border-spacing: 20px;
+  border-spacing: 50px;
 }
 tr{
   vertical-align: top;

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TeamCard image="./profileImages/henrymarks.jpeg" name="Henry Marks" position="Developer and Experience Manager" instagram="https://www.instagram.com/henry_marks_/" github="https://github.com/Henrymarks1" linkedin="https://www.linkedin.com/in/benswerdlow/"/>
+    <TeamCard image="./profileImages/henrymarks.jpeg" name="Henry Marks" position="Developer and Experience Manager" instagram="https://www.instagram.com/henry_marks_/" github="https://github.com/Henrymarks1" linkedin="https://www.linkedin.com/in/henryesmarks/"/>
     <TeamCard image="./profileImages/ethan.jpeg" name="Ethan Hopkins" position="Director" instagram="https://www.instagram.com/ethanhopkins___/" github="https://github.com/ethanh256" linkedin="https://www.linkedin.com/in/ethan-hopkins/"/>
     <TeamCard image="./profileImages/jacob.jpeg" name="Jacob Zwang" position="Marketing Manager" instagram="https://www.instagram.com/theshortjacob/" github="https://github.com/JacobZwang" linkedin="https://www.linkedin.com/in/jacobzwang/"/>
     <TeamCard image="./profileImages/jason.jpeg" name="Jason Telanoff" position="Hacker Experience" instagram="https://www.instagram.com/json_t/" github="https://github.com/jasonTelanoff" linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"/>
