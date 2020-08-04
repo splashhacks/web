@@ -64,8 +64,16 @@
 </template>
 
 <style scoped>
-td,
-th {
-  padding: 15px;
+table {
+  font-size: 20px;
+  border-spacing: 20px;
+}
+tr{
+  vertical-align: top;
+}
+tr :first-child {
+  font-weight: 500;
+  
+
 }
 </style>
