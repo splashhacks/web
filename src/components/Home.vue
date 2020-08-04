@@ -2,7 +2,6 @@
   <div>
     <Header />
     <div class="content" id="About">
-      <div class="card"></div>
       <div class="stripeContent">
         <div class="stripeColumn">
           <img src="~@/assets/helping.jpg" style="border-radius: 50%; height: 400px" />
@@ -13,9 +12,9 @@
         </div>
       </div>
     </div>
-    <div class="content" id="Prizes">
+    <div class="stripeContent">
       <div class="card">
-        <img src="~@/assets/prizes.png" height="300px" />
+        <img src="~@/assets/prizes.png" height="400px" />
       </div>
     </div>
     <div class="content" id="FAQ">
@@ -35,7 +34,7 @@
             </td>
           </tr>
           <tr>
-            <td id="segment">Why SplashHacks?</td>
+            <td>Why SplashHacks?</td>
             <td>
               At SplashHacks, we emphasize peer-to-peer connection and
               collaboration. [Add more]
@@ -86,11 +85,7 @@
       </div>
     </div>
     <div class="content">
-      <div class="card">
-        <!-- <h1 class="subtitle">
-      Sponsors
-        </h1>-->
-      </div>
+      <div class="card"></div>
     </div>
     <div class="content" id="Team">
       <div class="card">
@@ -112,10 +107,8 @@ export default {
   },
 };
 </script>
+
 <style scoped>
-#segment {
-  width: 5vw;
-}
 #centerTable {
   width: 50vw;
   margin-left: auto;
@@ -128,46 +121,17 @@ th {
   padding: 15px;
 }
 
-.bottomNavBar {
-  background-color: #3fb1ea;
-  overflow: hidden;
-  position: relative;
-  bottom: 0%;
-  width: 100%;
-}
-
 .stripeContent {
   padding: 30px;
   display: flex;
   display: grid;
   grid-auto-columns: 1fr;
-  margin: 0pt 100pt 0pt 100pt;
+  margin: 30pt 100pt 30pt 100pt;
 }
 
 .stripeColumn {
   text-align: left;
   grid-row: 1;
   margin: auto;
-}
-
-#infoDetails {
-  text-align: left;
-  text-align: middle;
-  font-size: 18px;
-  height: 100%;
-  grid-template-columns: repeat(1fr);
-}
-
-h1 {
-  color: #3fb1ea;
-  font-size: 35pt;
-}
-
-p1 {
-  font-size: 20pt;
-}
-.card {
-  padding: 20pt;
-  background-color: white;
 }
 </style>
