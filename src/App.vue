@@ -38,7 +38,7 @@ h1 {
   text-transform: uppercase;
 }
 
-p1 {
+p {
   font-size: 20pt;
 }
 </style>
