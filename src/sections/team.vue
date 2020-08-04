@@ -1,11 +1,11 @@
 <template>
   <div>
-    <TeamCard image="./profileImages/henrymarks.jpeg" name="Henry Marks" text="Developer and Experience Manager"></TeamCard>
-    <TeamCard image="./profileImages/ethan.jpeg" name="Ethan Hopkins" text="Director"></TeamCard>
-    <TeamCard image="./profileImages/jacob.jpeg" name="Jacob Zwang" text="Marketing Manager"></TeamCard>
-    <TeamCard image="./profileImages/jason.jpeg" name="Jason Telanoff" text="Hacker Experience"></TeamCard>
-    <TeamCard image="./profileImages/jessica.jpeg" name="Jessica Golden" text="Lead Task Manager"></TeamCard>
-    <TeamCard image="./profileImages/swerd.jpeg" name="Ben Swerdlow" text="Founder and Technical Coordinator"></TeamCard>
+    <TeamCard image="./profileImages/henrymarks.jpeg" name="Henry Marks" text="Developer and Experience Manager"/>
+    <TeamCard image="./profileImages/ethan.jpeg" name="Ethan Hopkins" text="Director"/>
+    <TeamCard image="./profileImages/jacob.jpeg" name="Jacob Zwang" text="Marketing Manager"/>
+    <TeamCard image="./profileImages/jason.jpeg" name="Jason Telanoff" text="Hacker Experience"/>
+    <TeamCard image="./profileImages/jessica.jpeg" name="Jessica Golden" text="Lead Task Manager"/>
+    <TeamCard image="./profileImages/swerd.jpeg" name="Ben Swerdlow" text="Founder and Technical Coordinator"/>
     
   </div>
 </template>
