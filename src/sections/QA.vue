@@ -15,8 +15,10 @@
     <tr>
       <td>Why SplashHacks?</td>
       <td>
-        At SplashHacks, we emphasize peer-to-peer connection and
-        collaboration. [Add more]
+        At SplashHacks, we put an emphasis on building connections, 
+        regardless of the online aspect of the hackathon. Both new 
+        and returning developers are welcome because our goal is to 
+        allow anyone to ‘dive in’ to the community! 
       </td>
     </tr>
     <tr>
