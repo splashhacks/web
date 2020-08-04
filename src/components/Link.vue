@@ -5,12 +5,32 @@
 .link {
   opacity: 100% !important;
   text-decoration: none;
+  position:relative;
   color: white;
   font-size: 20px;
   margin-top: 16px;
 
   padding-left: 8px;
 }
+
+.link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  background-color:white;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 </style>
 <script>
 export default {

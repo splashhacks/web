@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="stripeContent">
+    <div class="stripeContent" id="Prizes">
       <div class="card">
         <img src="~@/assets/prizes.png" height="400px" />
       </div>
@@ -55,7 +55,8 @@ export default {
 <style scoped>
 .register {
   text-decoration: none;
-  
+  font-weight:  900;
+
 }
 #centerTable {
   width: 70vw;
