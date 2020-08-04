@@ -29,7 +29,7 @@
     <div class="content" id="Team">
       <div class="card">
         <h1 class="subtitle">SplashHacks Team</h1>
-        <Team/> 
+        <Team />
       </div>
     </div>
     <div>
@@ -40,9 +40,9 @@
   </div>
 </template>
 <script>
-import Header from "./Header.vue";
-import Team from "./team.vue";
-import QA from "./QA.vue";
+import Header from "@/sections/Header.vue";
+import Team from "@/sections/team.vue";
+import QA from "@/sections/QA.vue";
 export default {
   components: {
     Header,

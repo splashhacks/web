@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-import Link from "./Link.vue";
+import Link from "@/components/Link.vue";
 export default {
   components: {
     Link,
@@ -27,7 +27,6 @@ export default {
   height: 80px;
   width: 100%;
   opacity: 84%;
-
   top: 0;
   background-color: #96cff2;
   /* opacity: 80%; */
