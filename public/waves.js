@@ -32,6 +32,7 @@ function createPath(strength) {
     var path = new Path({
         // Wave color here
         fillColor: "#3fb1ea",
+        
     });
     springs = [];
     for (var i = 0; i <= values.amount; i++) {

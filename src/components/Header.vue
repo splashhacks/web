@@ -10,6 +10,7 @@
   position: sticky;
   height: 80px;
   width: 100%;
+  opacity: 50%;
 
   top: 0;
   background-color: #3fb1ea;

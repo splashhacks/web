@@ -2,8 +2,8 @@
   <div id="app">
     <div style="height: 100vh; z-index: 20;">
       <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
-      <h1>November 6-8</h1>
-      <a href="https://forms.gle/HpvPySwZnRnmfyGB9">Register now</a>
+      <h1 style=" margin-top: 2px;">November 6-8</h1>
+      <RegisterButton/>
     </div>
     <Home />
   </div>
@@ -11,11 +11,13 @@
 
 <script>
 import Home from "./components/Home.vue";
+import RegisterButton from "./components/RegisterButton.vue";
 
 export default {
   name: "App",
   components: {
     Home,
+    RegisterButton,
   },
 };
 </script>

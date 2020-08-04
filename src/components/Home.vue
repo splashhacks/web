@@ -79,9 +79,9 @@ At SplashHacks, we emphasize peer-to-peer connection and collaboration.
     </div>
     <div class="content">
       <div class="card">
-      <h1 class="subtitle">
+      <!-- <h1 class="subtitle">
       Sponsors
-      </h1>
+      </h1> -->
       </div>
     </div>
     <div class="content">
@@ -152,7 +152,7 @@ td, th {
 #infoDetails {
   text-align:left;
   justify-content:center;
-
+  font-size: 18px;
 
 }
 
