@@ -31,6 +31,7 @@
         <h1 class="subtitle">
           Prizes
         </h1>
+        <img src="~@/assets/prizes.png" height="300px"/>
       </div>
     </div>
     <div class="content" id="FAQ">
@@ -182,8 +183,7 @@ th {
 }
 
 .content {
-  height: 65vh;
-  padding-top: 10vh;
+  padding-top: 0px;
 }
 .subtitle {
   color: #3fb1ea;
