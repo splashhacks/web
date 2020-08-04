@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="stripeContent">
+    <div class="stripeContent" id="Prizes">
       <div class="card">
         <img src="~@/assets/prizes.png" height="400px" />
       </div>
@@ -35,6 +35,7 @@
     <div>
       <div class="card">
         <h1 class="subtitle">Ready? Register now!</h1>
+        <RegisterButton />
       </div>
     </div>
   </div>
@@ -43,11 +44,13 @@
 import Header from "@/sections/Header.vue";
 import Team from "@/sections/team.vue";
 import QA from "@/sections/QA.vue";
+import RegisterButton from "@/components/RegisterButton.vue";
 export default {
   components: {
     Header,
     QA,
     Team,
+    RegisterButton
   },
 };
 </script>
