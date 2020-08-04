@@ -1,7 +1,7 @@
 <template>
   <div class = "card" >
-   <div class= "column"><img :src="image" class="image" /></div>
-  <div class = "column"><slot></slot></div>
+   <div><img :src="image" class="image" /></div>
+  <div><slot></slot></div>
   </div>
   
 </template>
@@ -13,14 +13,14 @@
   object-fit: cover;
 }
 .card{
-  background-color: blue;
-  margin: 10pt;
-  display: grid;
-  grid-auto-columns: 1fr;
+  background-color: #f9f9f9;
+  margin: 10px;
+  display: block;
+  padding: 16px;
+  max-width: 300px;
+  
 }
-.column{
-  grid-row:1;
-}
+
 </style>
 <script>
 export default {

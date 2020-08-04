@@ -59,7 +59,9 @@ export default {
   margin-right: auto;
   text-align: left;
 }
-
+.content {
+  padding-top: 75px;
+}
 .stripeContent {
   padding: 30px;
   display: flex;
