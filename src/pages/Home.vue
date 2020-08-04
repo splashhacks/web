@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="stripeContent">
+    <div class="stripeContent" id="Prizes">
       <div class="card">
         <img src="~@/assets/prizes.png" height="400px" />
       </div>
@@ -34,7 +34,7 @@
     </div>
     <div>
       <div class="card">
-        <h1 class="subtitle">Ready? Register now!</h1>
+        <h1 class="subtitle">Ready? <a class="register" href="https://forms.gle/HpvPySwZnRnmfyGB9">Register now!</a></h1>
       </div>
     </div>
   </div>
@@ -53,6 +53,11 @@ export default {
 </script>
 
 <style scoped>
+.register {
+  text-decoration: none;
+  font-weight:  900;
+
+}
 #centerTable {
   width: 70vw;
   margin-left: auto;
