@@ -11,7 +11,7 @@
   text-decoration: none;
   padding: 10px;
   border-radius: 16px;
-  transition: 250ms ease;
+  transition: 250ms ease; 
 }
 
 #signUp:hover {

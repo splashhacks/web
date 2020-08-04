@@ -1,7 +1,7 @@
 <template>
   <div class = "card" >
    <div><img :src="image" class="image" /></div>
-  <div><slot></slot></div>
+   <div><p>{{text}}</p></div>
   </div>
   
 </template>
@@ -24,6 +24,6 @@
 </style>
 <script>
 export default {
-  props: ["id", "image"],
+  props: ["image","text"],
 };
 </script>

@@ -1,11 +1,7 @@
 <template>
   <div>
-    <TeamCards image="./profileImages/henrymarks.jpeg"
-      >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
-    >
-    <TeamCards image="./profileImages/ethan.jpeg"
-      >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
-    >
+    <TeamCards image="./profileImages/henrymarks.jpeg" text="Developer and Experience Manager"></TeamCards>
+    <TeamCards image="./profileImages/ethan.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
     <TeamCards image="./profileImages/jacob.jpeg"
       >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
     >
