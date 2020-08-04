@@ -1,11 +1,11 @@
 <template>
   <div>
-    <TeamCards image="./profileImages/henrymarks.jpeg" />
-    <TeamCards image="./profileImages/ethan.jpeg" />
-    <TeamCards image="./profileImages/jacob.jpeg" />
-    <TeamCards image="./profileImages/jason.jpeg" />
-    <TeamCards image="./profileImages/jessica.jpeg" />
-    <TeamCards image="./profileImages/swerd.jpeg" />
+    <TeamCards image="./profileImages/henrymarks.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
+    <TeamCards image="./profileImages/ethan.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
+    <TeamCards image="./profileImages/jacob.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
+    <TeamCards image="./profileImages/jason.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
+    <TeamCards image="./profileImages/jessica.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
+    <TeamCards image="./profileImages/swerd.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
   </div>
 </template>
 <style scoped>
