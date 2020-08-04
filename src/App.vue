@@ -3,8 +3,7 @@
     <div style="height: 100vh; z-index: 20;">
       <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
       <h1 style=" margin-top: 2px;">November 6-8</h1>
-      <RegisterButton/>
-      
+      <RegisterButton />
     </div>
     <Home />
   </div>
@@ -31,5 +30,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1 {
+  color: #3fb1ea;
+  font-size: 35pt;
+  text-transform: uppercase;
+}
+
+p1 {
+  font-size: 20pt;
 }
 </style>
