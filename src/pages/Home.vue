@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 #centerTable {
-  width: 50vw;
+  width: 70vw;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
