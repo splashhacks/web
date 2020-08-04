@@ -1,11 +1,11 @@
 <template>
   <div>
-    <TeamCards image = "~@/assets/henrymarks.jpeg"/>
-    <TeamCards image = "~@/assets/ethan.jpeg"/>
-    <TeamCards image = "~@/assets/jacob.jpeg"/>
-    <TeamCards image = "~@/assets/jessica.jpeg"/>
-    <TeamCards image = "~@/assets/jason.jpeg"/>
-    <TeamCards image = "~@/assets/swerd.jpeg"/>
+    <TeamCards image = "./profileImages/henrymarks.jpeg"/>
+    <TeamCards image = "./profileImages/ethan.jpeg"/>
+    <TeamCards image = "./profileImages/jacob.jpeg"/>
+    <TeamCards image = "./profileImages/jason.jpeg"/>
+    <TeamCards image = "./profileImages/jessica.jpeg"/>
+    <TeamCards image = "./profileImages/swerd.jpeg"/>
   </div>
 </template>
 <style scoped>

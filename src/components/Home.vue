@@ -95,6 +95,7 @@
     <div class="content" id="Team">
       <div class="card">
         <h1 class="subtitle">SplashHacks Team</h1>
+        <Team/> 
       </div>
     </div>
     <div>
@@ -106,9 +107,11 @@
 </template>
 <script>
 import Header from "./Header.vue";
+import Team from "./team.vue";
 export default {
   components: {
     Header,
+    Team,
   },
 };
 </script>
