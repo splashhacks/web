@@ -1,4 +1,4 @@
-
+<template>
   <div>
     <Header />
     <div class="content" id="About">

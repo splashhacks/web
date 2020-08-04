@@ -1,6 +1,7 @@
 <template>
   <div class = "card" >
    <div><img :src="image" class="image" /></div>
+   <div><p>{{name}}</p></div>
    <div><p>{{text}}</p></div>
   </div>
   
@@ -24,6 +25,6 @@
 </style>
 <script>
 export default {
-  props: ["image","text"],
+  props: ["image","text","name"],
 };
 </script>

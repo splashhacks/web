@@ -1,19 +1,12 @@
 <template>
   <div>
-    <TeamCards image="./profileImages/henrymarks.jpeg" text="Developer and Experience Manager"></TeamCards>
-    <TeamCards image="./profileImages/ethan.jpeg">dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards>
-    <TeamCards image="./profileImages/jacob.jpeg"
-      >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
-    >
-    <TeamCards image="./profileImages/jason.jpeg"
-      >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
-    >
-    <TeamCards image="./profileImages/jessica.jpeg"
-      >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
-    >
-    <TeamCards image="./profileImages/swerd.jpeg"
-      >dfmkdmfkdmkfmkdmkfmdkmfkdmkfmdkmfkdmfk</TeamCards
-    >
+    <TeamCards image="./profileImages/henrymarks.jpeg" name="Henry Marks" text="Developer and Experience Manager"></TeamCards>
+    <TeamCards image="./profileImages/ethan.jpeg" name="Ethan Hopkins" text="Director"></TeamCards>
+    <TeamCards image="./profileImages/jacob.jpeg" name="Jacob Zwang" text="Marketing Manager"></TeamCards>
+    <TeamCards image="./profileImages/jason.jpeg" name="Jason Telanoff" text="Hacker Experience"></TeamCards>
+    <TeamCards image="./profileImages/jessica.jpeg" name="Jessica Golden" text="Lead Task Manager"></TeamCards>
+    <TeamCards image="./profileImages/swerd.jpeg" name="Ben Swerdlow" text="Founder and Technical Coordinator"></TeamCards>
+    
   </div>
 </template>
 <style scoped>
