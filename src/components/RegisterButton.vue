@@ -1,11 +1,12 @@
 <template>
-  <a href="https://forms.gle/HpvPySwZnRnmfyGB9" id="signUp">Register now</a>
+  <a href="https://forms.gle/HpvPySwZnRnmfyGB9" class="defaultLink" :id="type">Register now</a>
 </template>
 <style scoped>
-#signUp {
+
+
+.defaultLink {
   border: 2px solid #003c7e;
   color: #003c7e;
-  font-size: 16px;
   text-transform: uppercase;
   font-weight: 900;
   text-decoration: none;
@@ -14,8 +15,22 @@
   transition: 250ms ease; 
 }
 
-#signUp:hover {
+.defaultLink:hover {
   background-color: #003c7e;
   color: white;
 }
+#signUp {
+  font-size: 16px;
+}
+
+#signUpBig {
+  font-size:40px;
+}
+
 </style>
+
+<script>
+export default {
+  props:["type"]
+}
+</script>

@@ -34,7 +34,7 @@
     </div>
     <div>
       <div class="card">
-        <h1 class="subtitle">Ready? <a class="register" href="https://forms.gle/HpvPySwZnRnmfyGB9">Register now!</a></h1>
+        <h1 class="subtitle">Ready? <RegisterButton /></h1>
       </div>
     </div>
   </div>
@@ -43,11 +43,14 @@
 import Header from "@/sections/Header.vue";
 import Team from "@/sections/team.vue";
 import QA from "@/sections/QA.vue";
+import RegisterButton from "@/components/RegisterButton.vue";
+
 export default {
   components: {
     Header,
     QA,
     Team,
+    RegisterButton
   },
 };
 </script>
