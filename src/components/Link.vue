@@ -3,7 +3,6 @@
 </template>
 <style scoped>
 .link {
-  opacity: 100% !important;
   text-decoration: none;
   position:relative;
   color: white;

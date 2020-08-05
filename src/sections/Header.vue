@@ -1,5 +1,5 @@
 <template>
-  <div id="header">
+  <div id="topHeader" style="opacity: 84%;">
     <div id="headerImageContainer">
       <a href="#top">
         <img src="~@/assets/splashwhite.png" id="headerImage" />
@@ -44,14 +44,13 @@ export default {
 
 
 
-#header {
+#topHeader {
+ 
   position: sticky;
   height: 80px;
   width: 100%;
-  opacity: 84%;
   top: 0;
   background-color: #96cff2;
-  /* opacity: 80%; */
 }
 
 #headerLinksContainer {
