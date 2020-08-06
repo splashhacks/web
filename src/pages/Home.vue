@@ -11,33 +11,20 @@
           <p>While most online Hackathons are great experiences for learning, testing out new ideas, and advancing technical skills, they tend to focus on individual teams more than the Hacker Community as a whole. At SplashHacks, we aim to provide a stimulating and deeply interconnected event for new and advanced programmers, graphic designers, and technical visionaries alike. During our event, high school and college students will have a 36-hour period to bring their ideas to life, filled with events for peer-to-peer connection and collaboration.</p>
         </div>
       </div>
-    </div>
-    <div class="stripeContent" id="Prizes">
-      <div class="card">
-        <img src="~@/assets/prizes.png" height="400px" />
+      <div class="stripeContent" id="Prizes">
+        <div class="card">
+          <img src="~@/assets/prizes.png" height="400px" />
+        </div>
       </div>
-    </div>
-    <div class="content" id="FAQ">
       <div class="card">
         <h1 class="subtitle">Frequently Asked Questions</h1>
         <QA />
-      </div>
-    </div>
-    <div class="content">
-      <div class="card"></div>
-    </div>
-    <div class="content" id="Team">
-      <div class="card">
         <h1 class="subtitle">SplashHacks Team</h1>
         <Team />
       </div>
-    </div>
-    <div>
-      <div class="card">
-        <h1 class="subtitle">
-          Ready?
-          <RegisterButton />
-        </h1>
+      <div>
+        Ready?
+        <RegisterButton />
       </div>
     </div>
   </div>
