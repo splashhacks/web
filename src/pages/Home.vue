@@ -3,7 +3,7 @@
     <Header />
     <div class="content">
       <About />
-      <Prizes />
+      <!-- <Prizes />
       <h1>Frequently Asked Questions</h1>
       <QA />
       <h1>SplashHacks Team</h1>
@@ -11,26 +11,26 @@
       <div>
         Ready?
         <RegisterButton />
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
 <script>
-import Header from "@/sections/Header.vue";
-import Team from "@/sections/team.vue";
-import QA from "@/sections/QA.vue";
-import RegisterButton from "@/components/RegisterButton.vue";
+// import Header from "@/sections/Header.vue";
+// import Team from "@/sections/team.vue";
+// import QA from "@/sections/QA.vue";
+// import RegisterButton from "@/components/RegisterButton.vue";
 import About from "@/sections/About.vue";
-import Prizes from "@/sections/Prizes.vue";
+// import Prizes from "@/sections/Prizes.vue";
 
 export default {
   components: {
-    Header,
-    QA,
-    Team,
-    RegisterButton,
+    // Header,
+    // QA,
+    // Team,
+    // RegisterButton,
     About,
-    Prizes,
+    // Prizes,
   },
 };
 </script>

@@ -41,11 +41,13 @@ h1 {
   color: #3fb1ea;
   font-size: 35pt;
   text-transform: uppercase;
-  margin: 0px;
+  margin: 20px;
 }
 
-p {
+p1 {
   font-size: 20pt;
+  display: block;
+  margin: 20px;
 }
 
 .waterWrapper {
