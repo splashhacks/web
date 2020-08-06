@@ -10,7 +10,9 @@
   padding: 10px;
   border-radius: 4px;
   transition: 250ms ease;
-  display: inline-block;
+  display: inline-flex;
+  font-size: 16pt;
+  align-items: center;
 }
 
 .defaultLink:hover {

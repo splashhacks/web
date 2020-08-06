@@ -1,17 +1,9 @@
 <template>
   <div>
     <Header />
-    <div class="content" id="About">
+    <div class="content">
+      <About />
       <div class="stripeContent">
-        <div class="stripeColumn">
-          <img src="~@/assets/helping.jpg" style="border-radius: 50%; height: 400px" />
-        </div>
-        <div class="stripeColumn">
-          <h1>WHAT MAKES US DIFFERENT</h1>
-          <p>While most online Hackathons are great experiences for learning, testing out new ideas, and advancing technical skills, they tend to focus on individual teams more than the Hacker Community as a whole. At SplashHacks, we aim to provide a stimulating and deeply interconnected event for new and advanced programmers, graphic designers, and technical visionaries alike. During our event, high school and college students will have a 36-hour period to bring their ideas to life, filled with events for peer-to-peer connection and collaboration.</p>
-        </div>
-      </div>
-      <div class="stripeContent" id="Prizes">
         <div class="card">
           <img src="~@/assets/prizes.png" height="400px" />
         </div>
@@ -34,6 +26,7 @@ import Header from "@/sections/Header.vue";
 import Team from "@/sections/team.vue";
 import QA from "@/sections/QA.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
+import About from "@/sections/About.vue";
 
 export default {
   components: {
@@ -41,6 +34,7 @@ export default {
     QA,
     Team,
     RegisterButton,
+    About,
   },
 };
 </script>
@@ -57,21 +51,9 @@ export default {
   text-align: left;
 }
 .content {
-  padding-top: 75px;
-}
-.stripeContent {
-  padding: 30px;
-  display: flex;
-  display: grid;
-  grid-auto-columns: 1fr;
-  margin: 30pt 100pt 30pt 100pt;
+  padding: 75px;
 }
 
-.stripeColumn {
-  text-align: left;
-  grid-row: 1;
-  margin: auto;
-}
 .stripeLeft {
   font-weight: 800;
 }

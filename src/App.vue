@@ -1,9 +1,13 @@
 <template>
   <div id="app" class="background">
     <div style="height: 100vh; z-index: 20;">
-      <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
-      <h1 style=" margin-top: 2px;">November 6-8</h1>
-      <RegisterButton type="signUp" />
+      <div style="margin-top: 20pt">
+        <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
+      </div>
+      <div style="display: inline-flex;">
+        <h1 style="margin: 10pt">November 6-8</h1>
+        <RegisterButton style="margin: 10pt;" />
+      </div>
     </div>
     <div class="waterWrapper">
       <Home />
@@ -37,6 +41,7 @@ h1 {
   color: #3fb1ea;
   font-size: 35pt;
   text-transform: uppercase;
+  margin: 0px;
 }
 
 p {
