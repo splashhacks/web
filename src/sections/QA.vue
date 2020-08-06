@@ -1,5 +1,5 @@
 <template>
-  <table id="centerTable">
+  <table id="FAQ">
     <tr>
       <td>What are hackathons?</td>
       <td>
@@ -15,10 +15,10 @@
     <tr>
       <td>Why SplashHacks?</td>
       <td>
-        At SplashHacks, we put an emphasis on building connections, 
-        regardless of the online aspect of the hackathon. Both new 
-        and returning developers are welcome because our goal is to 
-        allow anyone to ‘dive in’ to the community! 
+        At SplashHacks, we put an emphasis on building connections,
+        regardless of the online aspect of the hackathon. Both new
+        and returning developers are welcome because our goal is to
+        allow anyone to ‘dive in’ to the community!
       </td>
     </tr>
     <tr>
@@ -68,14 +68,22 @@
 <style scoped>
 table {
   font-size: 20px;
-  border-spacing: 50px;
+  border-spacing: 0px;
+  background-color: white;
+  margin: 20pt;
+  text-align: left;
 }
-tr{
+tr {
   vertical-align: top;
+  border-bottom: 5px;
+  border: solid;
 }
 tr :first-child {
   font-weight: 500;
-  
-
+  background-color: #94cdea;
+  width: 30%;
+}
+td {
+  padding: 20px;
 }
 </style>
