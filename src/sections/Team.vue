@@ -1,5 +1,6 @@
 <template>
   <Section name="team">
+    <h1>SplashHacks Team</h1>
     <div class="teamCards">
       <TeamCard
         image="./profileImages/henrymarks.jpeg"

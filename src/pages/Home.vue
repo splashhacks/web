@@ -5,7 +5,6 @@
       <About />
       <Prizes />
       <QA />
-      <h1>SplashHacks Team</h1>
       <Team />
       <div>
         <RegisterButton style="color:white; border-color: white" />
@@ -15,7 +14,7 @@
 </template>
 <script>
 import Header from "@/sections/Header.vue";
-import Team from "@/sections/team.vue";
+import Team from "@/sections/Team.vue";
 import QA from "@/sections/QA.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
 import About from "@/sections/About.vue";
