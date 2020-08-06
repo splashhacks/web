@@ -1,7 +1,7 @@
 <template>
-  <Section>
+  <Section name="faq">
     <h1>Frequently Asked Questions</h1>
-    <table id="FAQ">
+    <table>
       <tr>
         <td>What are hackathons?</td>
         <td>
