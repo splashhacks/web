@@ -56,7 +56,7 @@ export default {
 #headerImageContainer {
   float: left;
   padding: 8px;
-  padding-left: 5vh;
+  padding-left: 16px;
 }
 #headerImage {
   height: 80%;

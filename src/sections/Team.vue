@@ -70,7 +70,7 @@ export default {
   text-align: center;
   max-width: 1200px;
   float: center;
-  margin: 0 auto;
+  width: 100%;
   display: grid;
   grid-gap: 1rem;
 }

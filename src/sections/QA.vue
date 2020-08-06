@@ -82,7 +82,6 @@ table {
   font-size: 20px;
   border-spacing: 0px;
   background-color: white;
-  margin: 20pt;
   text-align: left;
 }
 tr {
