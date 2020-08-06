@@ -6,10 +6,10 @@
       </a>
     </div>
     <div id="headerLinksContainer">
-      <Link id="#About" name="About" class="headerButton"/>
-      <Link id="#Prizes" name="Prizes" class="headerButton"/>
-      <Link id="#FAQ" name="FAQ" class="headerButton"/>
-      <Link id="#Team" name="Team" class="headerButton"/>
+      <Link id="#About" name="About" class="headerButton" />
+      <Link id="#Prizes" name="Prizes" class="headerButton" />
+      <Link id="#FAQ" name="FAQ" class="headerButton" />
+      <Link id="#Team" name="Team" class="headerButton" />
     </div>
   </div>
 </template>
@@ -22,10 +22,9 @@ export default {
 };
 </script>
 <style scoped>
-
 .headerButton {
-  font-weight:bold;
-  border-radius:3px;
+  font-weight: bold;
+  border-radius: 3px;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -38,19 +37,15 @@ export default {
 }
 
 .headerButton:hover {
-  text-decoration:none;
+  text-decoration: none;
   color: white;
 }
 
-
-
 #topHeader {
- 
   position: sticky;
   height: 80px;
   width: 100%;
   top: 0;
-  background-color: #96cff2;
 }
 
 #headerLinksContainer {

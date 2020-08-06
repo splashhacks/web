@@ -5,7 +5,9 @@
       <h1 style=" margin-top: 2px;">November 6-8</h1>
       <RegisterButton type="signUp" />
     </div>
-    <Home />
+    <div class="waterWrapper">
+      <Home />
+    </div>
   </div>
 </template>
 
@@ -39,6 +41,15 @@ h1 {
 
 p {
   font-size: 20pt;
+}
+
+.waterWrapper {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(63, 177, 234, 0.5) 100%
+  );
 }
 
 .background {
