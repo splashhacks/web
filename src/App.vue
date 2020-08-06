@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="background">
     <div style="height: 100vh; z-index: 20;">
       <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
       <h1 style=" margin-top: 2px;">November 6-8</h1>
@@ -29,7 +29,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 h1 {
@@ -40,5 +39,16 @@ h1 {
 
 p {
   font-size: 20pt;
+}
+
+.background {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 20, 121, 1) 35%,
+    rgba(196, 231, 255, 1) 73%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 </style>
