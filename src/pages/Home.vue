@@ -3,11 +3,7 @@
     <Header />
     <div class="content">
       <About />
-      <div class="stripeContent" id="Prizes">
-        <div class="card">
-          <img src="~@/assets/prizes.png" height="400px" />
-        </div>
-      </div>
+      <Prizes />
       <div class="card">
         <h1 class="subtitle">Frequently Asked Questions</h1>
         <QA />
@@ -27,6 +23,7 @@ import Team from "@/sections/team.vue";
 import QA from "@/sections/QA.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
 import About from "@/sections/About.vue";
+import Prizes from "@/sections/Prizes.vue";
 
 export default {
   components: {
@@ -35,6 +32,7 @@ export default {
     Team,
     RegisterButton,
     About,
+    Prizes,
   },
 };
 </script>
