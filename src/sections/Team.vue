@@ -68,11 +68,11 @@ export default {
 <style scoped>
 .teamCards {
   text-align: center;
+  margin:auto;
   max-width: 1200px;
-  float: center;
   width: 100%;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 @media (min-width: 600px) {
   div {
