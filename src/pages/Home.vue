@@ -4,12 +4,10 @@
     <div class="content">
       <About />
       <Prizes />
-      <div class="card">
-        <h1 class="subtitle">Frequently Asked Questions</h1>
-        <QA />
-        <h1 class="subtitle">SplashHacks Team</h1>
-        <Team />
-      </div>
+      <h1>Frequently Asked Questions</h1>
+      <QA />
+      <h1>SplashHacks Team</h1>
+      <Team />
       <div>
         Ready?
         <RegisterButton />
