@@ -1,5 +1,5 @@
 <template>
-  <div class="section" :id="name">
+  <div :id="name" class="section">
     <slot></slot>
   </div>
 </template>
@@ -14,15 +14,6 @@ export default {
 
 <style scoped>
 .section {
-  padding: 10px;
-  background-color: orange;
-  border-radius: 20px;
-  display: flex;
-  display: grid;
-}
-
-.stripeColumn {
-  text-align: left;
-  grid-row: 1;
+  margin: 0px 0px 100px 0px;
 }
 </style>

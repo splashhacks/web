@@ -1,7 +1,14 @@
 <template>
-  <div class="stripeContent" id="Prizes">
-    <div class="card">
-      <img src="~@/assets/prizes.png" height="400px" />
-    </div>
-  </div>
+  <Section name="prizes">
+    <img src="~@/assets/prizes.png" height="400px" />
+  </Section>
 </template>
+
+<script>
+import Section from "@/components/Section.vue";
+export default {
+  components: {
+    Section,
+  },
+};
+</script>
