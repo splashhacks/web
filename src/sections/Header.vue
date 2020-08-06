@@ -6,10 +6,10 @@
       </a>
     </div>
     <div id="headerLinksContainer">
-      <Link id="#About" name="About" class="headerButton" />
-      <Link id="#Prizes" name="Prizes" class="headerButton" />
-      <Link id="#FAQ" name="FAQ" class="headerButton" />
-      <Link id="#Team" name="Team" class="headerButton" />
+      <Link id="#about" name="About" class="headerButton" />
+      <Link id="#prizes" name="Prizes" class="headerButton" />
+      <Link id="#faq" name="FAQ" class="headerButton" />
+      <Link id="#team" name="Team" class="headerButton" />
     </div>
   </div>
 </template>
