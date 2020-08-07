@@ -1,8 +1,7 @@
 <template>
  <div>
-
-     <button class="accordionSection" onclick="showResponse()">{{question}}</button>
-    <div class="slidePanel">
+    <button class="accordionSection" @click="activitySwitch()">{{question}}</button>
+    <div class="slidePanel" v-bind:class="panelObject">
         <p>{{response}}</p>
     </div>
  </div>
@@ -14,11 +13,17 @@
 
 }
 
-.slidePanel {
+.accordionSection:after {
+
+}
+.bruh {
+    color:green;
+}
+.isInactive {
 max-height:null;
 }
 
-.slidePanelShown {
+.isActive {
 max-height:10px;
 }
 
@@ -26,19 +31,39 @@ max-height:10px;
 
 <script>
 
-function showResponse() {
-this.classList.toggle("active")
-var panel = this.nextElementSibling;
-if (panel.className.includes("Shown")){
-    panel.className = panel.ClassName.replace("Shown", "");
-} else {
-    panel.className += "Shown"
-}
-}
 
 </script>
 <script>
 export default {
+data: {
+    panelObject: { 
+        isInactive: true,
+        isActive: false
+    }
+},
+computed: {
+    activitySwitch () {
+        if (isInactive = true) {
+            panelObject.isInactive = false;
+            panelObject.isActive = true;
+        } else {
+            panelObject.isInactive = true;
+            panelObject.isActive = false;
+        }
+    }
+},
   props: ["question", "response"],
+  methods: {
+    showResponse() {
+        this.className = "bruh"
+    /* this.classList.toggle("active")
+    var panel = this.nextElementSibling;
+    if (panel.className.includes("Shown")){
+    panel.className = panel.ClassName.replace("Shown", "");
+    } else {
+    panel.className += "Shown" */
+}
+  }
 };
+
 </script>
