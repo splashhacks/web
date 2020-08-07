@@ -4,7 +4,7 @@
 <style scoped>
 .defaultLink {
   border: 2px solid #003c7e;
-  color: #003c7e;
+  color: var(--splash-dark);
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px;
@@ -16,8 +16,8 @@
 }
 
 .defaultLink:hover {
-  background-color: #003c7e;
-  color: white;
+  background-color: var(--splash-dark);
+  color: var(--sky);
 }
 </style>
 

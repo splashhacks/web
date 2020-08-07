@@ -7,8 +7,11 @@
       <div style="display: inline-flex;">
         <h1 style="margin: 10pt">November 6-8</h1>
         <RegisterButton style="margin: 10pt;" />
+        
       </div>
+    <DownArrow/>
     </div>
+ 
     <div class="waterWrapper">
       <Home />
     </div>
@@ -18,12 +21,14 @@
 <script>
 import Home from "./pages/Home.vue";
 import RegisterButton from "./components/RegisterButton.vue";
+import DownArrow from "./components/DownArrow.vue"
 
 export default {
   name: "App",
   components: {
     Home,
     RegisterButton,
+    DownArrow,
   },
 };
 </script>
@@ -38,7 +43,7 @@ export default {
 }
 
 h1 {
-  color: #3fb1ea;
+  color: var(--splash-light);
   font-size: 35pt;
   text-transform: uppercase;
   margin: 20px;
@@ -68,5 +73,14 @@ p1 {
     rgba(196, 231, 255, 1) 73%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+:root{
+  --splash-light: #3fb1ea;
+  --splash-dark: #003c7e;
+  --focus: #fba919;
+  --sand-light: #f9ce8a;
+  --sand-dark: #cea876;
+  --sky: #ffffff;
+
 }
 </style>

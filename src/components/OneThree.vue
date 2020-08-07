@@ -13,7 +13,7 @@
 .oneThree {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  background-color: white;
+  background-color: var(--sky);
   border-radius: 10px;
   text-align: left;
 }

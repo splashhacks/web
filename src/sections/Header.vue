@@ -26,7 +26,7 @@ export default {
   font-weight: bold;
   border-radius: 3px;
   border: none;
-  color: white;
+  color: var(--sky);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -38,10 +38,16 @@ export default {
 
 .headerButton:hover {
   text-decoration: none;
-  color: white;
+  color: var(--sky);
 }
 
 #topHeader {
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); */
+  
   position: sticky;
   height: 80px;
   width: 100%;
@@ -49,9 +55,11 @@ export default {
 }
 
 #headerLinksContainer {
+backdrop-filter: blur(80px); 
+  margin: 8px;
+  border-radius: 20px;
+  background-color: rgb(0,60,126, .7e);
   float: right;
-  padding: 8px;
-  height: 64px;
 }
 #headerImageContainer {
   float: left;
