@@ -8,7 +8,7 @@ var values = {
 values.invMass = 1 / values.mass;
 
 var path, springs;
-var size = view.size * [1.2, 1];
+var size = window.size * [1.2, 1];
 
 var Spring = function (a, b, strength, restLength) {
     this.a = a;

@@ -47,7 +47,7 @@ export default {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px); */
-  
+
   position: sticky;
   height: 80px;
   width: 100%;
@@ -55,10 +55,10 @@ export default {
 }
 
 #headerLinksContainer {
-  backdrop-filter: blur(80px); 
+  backdrop-filter: blur(80px);
   margin: 8px;
   border-radius: 20px;
-  background-color: rgb(0,60,126, .70);
+  background-color: rgb(0, 60, 126, 0.7);
   float: right;
 }
 #headerImageContainer {
@@ -72,5 +72,10 @@ export default {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+@media (min-width: 680px) {
+  #headerLinksContainer{
+    display: none;
+  }
 }
 </style>
