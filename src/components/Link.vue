@@ -5,6 +5,7 @@
 .link {
   text-decoration: none;
   position:relative;
+  text-transform: uppercase;
   color: var(--sky);
   font-size: 20px;
   margin-top: 8px;
