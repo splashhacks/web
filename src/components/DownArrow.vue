@@ -1,6 +1,6 @@
 <template>
        <div class="downArrow">
-        <img src="@/assets/down.svg" />
+        <a href="#topHeader"><img src="@/assets/down.svg" /></a>
        </div>
 </template>
 
