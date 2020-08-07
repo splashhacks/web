@@ -1,15 +1,7 @@
 <template>
   <div class="card">
-    <div>
-      <img :src="image" class="image" />
-    </div>
-    <div>
-      <h2 class="name">{{name}}</h2>
-    </div>
-    <div>
-      <p class="position">{{position}}</p>
-    </div>
-    <div class="socialButtons">
+    <img :src="image" class="image" />
+    <div class="socialButtons" style="grid-row: 1;">
       <a :href="linkedin" class="socialButton">
         <img src="@/assets/linkedin.svg" />
       </a>
@@ -20,20 +12,25 @@
         <img src="@/assets/instagram.svg" />
       </a>
     </div>
+    <div style="grid-row: 1; text-align: left">
+      <h2 class="name">{{name}}</h2>
+      <p class="position">{{position}}</p>
+    </div>
   </div>
 </template>
 <style scoped>
 .image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
   height: 100px;
-  width: 100px;
-  border-radius: 50%;
   object-fit: cover;
+  grid-row: 1;
 }
+
 .card {
-  background-color: #f9f9f9;
-  display: block;
-  padding: 16px;
-  max-width: 300px;
+  display: grid;
+  grid-template-columns: 100px 40px calc(100% - 140px);
 }
 
 .name {
@@ -41,15 +38,21 @@
 }
 
 .position {
-  margin: 0px 0px 10px 0px;
+  margin: 0px;
+}
+
+.socialButtons {
+  margin: auto;
 }
 
 .socialButton {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding: 0px;
+  display: block;
 }
+
 .socialButton img {
-  height: 25px;
+  height: 20px;
+  padding: 5px;
 }
 </style>
 <script>
