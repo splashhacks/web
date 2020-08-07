@@ -42,6 +42,12 @@ export default {
 }
 
 #topHeader {
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); */
+  
   position: sticky;
   height: 80px;
   width: 100%;
@@ -49,9 +55,11 @@ export default {
 }
 
 #headerLinksContainer {
+backdrop-filter: blur(80px); 
+  margin: 8px;
+  border-radius: 20px;
+  background-color: rgb(80,80,80, .5);
   float: right;
-  padding: 8px;
-  height: 64px;
 }
 #headerImageContainer {
   float: left;
