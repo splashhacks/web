@@ -54,13 +54,14 @@ export default {
   top: 0;
 }
 
-#headerLinksContainer {
+.headerLinksContainer {
   backdrop-filter: blur(80px);
   margin: 8px;
   border-radius: 20px;
   background-color: rgb(0, 60, 126, 0.7);
   float: right;
 }
+
 #headerImageContainer {
   float: left;
   padding: 8px;
@@ -73,8 +74,9 @@ export default {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-@media (min-width: 680px) {
-  #headerLinksContainer{
+@media screen and (min-width: 600px) {
+ 
+  #headerImageContainer {
     display: none;
   }
 }
