@@ -7,7 +7,7 @@
 <style scoped>
 .orangeBorder {
   padding: 10px;
-  background-color: orange;
+  background-color: var(--focus);
   border-radius: 20px;
   display: flex;
   display: grid;

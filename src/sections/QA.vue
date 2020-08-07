@@ -81,7 +81,7 @@ export default {
 table {
   font-size: 20px;
   border-spacing: 0px;
-  background-color: white;
+  background-color: var(--sky);
   text-align: left;
 }
 tr {

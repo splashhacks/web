@@ -5,7 +5,7 @@
 .link {
   text-decoration: none;
   position:relative;
-  color: white;
+  color: var(--sky);
   font-size: 20px;
   margin-top: 8px;
 
@@ -20,7 +20,7 @@
   bottom: 10px;
   left: 0;
   transform: scaleX(0);
-  background-color:white;
+  background-color:var(--sky);
   visibility: hidden;
   transition: all 0.2s ease-in-out 0s;
 }

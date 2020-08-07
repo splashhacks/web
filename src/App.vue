@@ -43,7 +43,7 @@ export default {
 }
 
 h1 {
-  color: #3fb1ea;
+  color: var(--splash-light);
   font-size: 35pt;
   text-transform: uppercase;
   margin: 20px;
@@ -73,5 +73,14 @@ p1 {
     rgba(196, 231, 255, 1) 73%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+:root{
+  --splash-light: #3fb1ea;
+  --splash-dark: #003c7e;
+  --focus: #fba919;
+  --sand-light: #f9ce8a;
+  --sand-dark: #cea876;
+  --sky: #ffffff;
+
 }
 </style>

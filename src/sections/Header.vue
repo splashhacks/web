@@ -26,7 +26,7 @@ export default {
   font-weight: bold;
   border-radius: 3px;
   border: none;
-  color: white;
+  color: var(--sky);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -38,7 +38,7 @@ export default {
 
 .headerButton:hover {
   text-decoration: none;
-  color: white;
+  color: var(--sky);
 }
 
 #topHeader {
@@ -58,7 +58,7 @@ export default {
 backdrop-filter: blur(80px); 
   margin: 8px;
   border-radius: 20px;
-  background-color: rgb(80,80,80, .5);
+  background-color: rgb(0,60,126, .7e);
   float: right;
 }
 #headerImageContainer {
