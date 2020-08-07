@@ -7,21 +7,20 @@
       <div class="wrap">
         <h1 style="margin: 10pt">November 6-8</h1>
         <RegisterButton style="margin: 10pt;" />
-        
       </div>
-    <DownArrow/>
+      <DownArrow />
     </div>
- 
+
     <div class="waterWrapper">
       <Home />
-    </div> 
+    </div>
   </div>
 </template>
 
 <script>
 import Home from "./pages/Home.vue";
 import RegisterButton from "./components/RegisterButton.vue";
-import DownArrow from "./components/DownArrow.vue"
+import DownArrow from "./components/DownArrow.vue";
 
 export default {
   name: "App",
@@ -66,16 +65,13 @@ p1 {
 
 .wrap {
   display: inline-flex;
-
 }
 
 @media screen and (max-width: 720px) {
   .wrap {
     display: block;
   }
-  
 }
-
 
 .background {
   background: rgb(2, 0, 36);
@@ -87,13 +83,12 @@ p1 {
     rgba(255, 255, 255, 1) 100%
   );
 }
-:root{
+:root {
   --splash-light: #3fb1ea;
   --splash-dark: #003c7e;
   --focus: #fba919;
   --sand-light: #f9ce8a;
   --sand-dark: #cea876;
   --sky: #ffffff;
-
 }
 </style>
