@@ -1,65 +1,59 @@
 <template>
- <div>
+  <div>
     <button class="accordionSection" @click="activitySwitch()">{{question}}</button>
     <div class="slidePanel" v-bind:class="panelObject">
-        <p>{{response}}</p>
+      <p2>{{response}}</p2>
     </div>
- </div>
-
-
+  </div>
 </template>
 <style scoped>
 .accordionSection {
-
+  background-color: rgb(256, 256, 256, 0.5);
 }
 
 .accordionSection:after {
-
 }
 .isInactive {
-color:green;
-transition:1s;
-height:0px;
-text-overflow: clip;
+  display: block;
+  transition: 1000ms ease-out;
+  background-color: rgb(256, 256, 256, 0.5);
+  max-height: 0;
+  overflow: hidden;
 }
 
 .isActive {
-color:red;
-transition:1s;
+  display: block;
+  transition: 1s;
+  max-height: 500px;
+  background-color: rgb(256, 256, 256, 0.5);
+  overflow: hidden;
+  transition: 1000ms ease-out;
 }
-
 </style>
 
 <script>
-
-
 </script>
 <script>
 export default {
-data() {
+  data() {
     return {
-    panelObject: { 
+      panelObject: {
         isInactive: true,
         isActive: false
-    }
-    }
-},
-methods: {
+      }
+    };
+  },
+  methods: {
     activitySwitch() {
-        console.log("henry is epic")
-        if (this.panelObject.isInactive == true) {
-            console.log("Henry is a nice guy")
-                this.panelObject.isInactive = false;
-                this.panelObject.isActive = true; 
-                }
-        else {
-                this.panelObject.isInactive = true;
-                this.panelObject.isActive = false;
-        } 
+      if (this.panelObject.isInactive == true) {
+        this.panelObject.isInactive = false;
+        this.panelObject.isActive = true;
+      } else {
+        this.panelObject.isInactive = true;
+        this.panelObject.isActive = false;
+      }
     }
-},
-  props: ["question", "response"],
-
+  },
+  props: ["question", "response"]
 };
-
 </script>
