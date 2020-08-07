@@ -1,70 +1,37 @@
 <template>
   <Section name="faq">
-    <h1>Frequently Asked Questions</h1>
-    <table>
-      <tr>
-        <td>What are hackathons?</td>
-        <td>
-          A ‘hackathon’ is a fast-paced programming event and competition
-          where members of the community come together to work on projects
-          that address real-world issues. Supplemented by workshops,
-          mentors, and an awesome community, hackathons are great
-          experiences for advancing technical knowledge and learning new
-          skills. At the end of the timeframe, submissions are judged and
-          prizes are awarded!
-        </td>
-      </tr>
-      <tr>
-        <td>Why SplashHacks?</td>
-        <td>
-          At SplashHacks, we put an emphasis on building connections,
-          regardless of the online aspect of the hackathon. Both new
-          and returning developers are welcome because our goal is to
-          allow anyone to ‘dive in’ to the community!
-        </td>
-      </tr>
-      <tr>
-        <td>Who can participate? How many people can be on my team?</td>
-        <td>
-          Individuals enrolled in high school or University may participate.
-          Teams may consist of 1-4 individuals.
-        </td>
-      </tr>
-      <tr>
-        <td>Can I start my code early?</td>
-        <td>
-          No. Starting your programming early (“pre-hacking”) is strictly
-          forbidden at SplashHacks.
-        </td>
-      </tr>
-      <tr>
-        <td>Do I need prior code experience?</td>
-        <td>
-          Nope! SplashHacks is committed to introducing new developers to
-          the world of code. During the event, many opportunities will be
-          available for beginners, such as workshops, mentors, and
-          discussion boards.
-        </td>
-      </tr>
-      <tr>
-        <td>What if I have no friends?</td>
-        <td>
-          Don’t worry! We have a Discord community where you can meet new
-          people!
-        </td>
-      </tr>
-      <tr>
-        <td>How much does the event cost?</td>
-        <td>
-          SplashHacks is completely free to enter. The only cost to
-          participate is sleep!
-        </td>
-      </tr>
-      <tr>
-        <td>Why does water never laugh at jokes?</td>
-        <td>It isn’t a fan of dry humor.</td>
-      </tr>
-    </table>
+      <FAQParts
+        question="What are hackathons?"
+        response="A ‘hackathon’ is a fast-paced programming event and competition where members of the community come together to work on projects that address real-world issues. Supplemented by workshops, mentors, and an awesome community, hackathons are great experiences for advancing technical knowledge and learning new skills. At the end of the timeframe, submissions are judged and prizes are awarded!"
+      />
+      <FAQParts
+        question="Why SplashHacks?"
+        response="At SplashHacks, we put an emphasis on building connections, regardless of the online aspect of the hackathon. Both new and returning developers are welcome because our goal is to allow anyone to ‘dive in’ to the community!"
+      />
+      <FAQParts
+        question="Who can participate? How many people can be on my team?"
+        response="Individuals enrolled in high school or University may participate. Teams may consist of 1-4 individuals."
+      />
+      <FAQParts
+        question="Can I start my code early?"
+        response="No. Starting your programming early (“pre-hacking”) is strictly forbidden at SplashHacks."
+      />
+      <FAQParts
+        question="Do I need prior code experience?"
+        response="Nope! SplashHacks is committed to introducing new developers to the world of code. During the event, many opportunities will be available for beginners, such as workshops, mentors, and discussion boards."
+      />
+      <FAQParts
+        question="What if I have no friends?"
+        response="Don’t worry! We have a Discord community where you can meet new people!"
+      />
+       <FAQParts
+        question="How much does the event cost?"
+        response="SplashHacks is completely free to enter. The only cost to participate is sleep!"
+      />
+       <FAQParts
+        question="Why does water never laugh at jokes?"
+        response="It isn’t a fan of dry humor."
+      />
   </Section>
 </template>
 
@@ -81,7 +48,7 @@ export default {
 table {
   font-size: 20px;
   border-spacing: 0px;
-  background-color: var(--sky);
+  background-color: white;
   text-align: left;
 }
 tr {
