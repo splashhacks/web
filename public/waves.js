@@ -54,7 +54,7 @@ function createPath(strength) {
 
 function onResize() {
     if (path) path.remove();
-    size = view.bounds.size * [2, 1];
+    size = window.bounds.size * [2, 1];
     path = createPath(0.1);
 }
 
