@@ -12,6 +12,7 @@
 }
 
 .accordionSection:after {
+  background-color: rgb(256, 256, 256, 0.5);
 }
 .isInactive {
   display: block;
