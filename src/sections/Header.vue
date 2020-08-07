@@ -74,8 +74,7 @@ export default {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-@media screen and (min-width: 600px) {
- 
+@media screen and (max-width: 720px) {
   #headerImageContainer {
     display: none;
   }
