@@ -14,7 +14,7 @@
  
     <div class="waterWrapper">
       <Home />
-    </div>
+    </div> 
   </div>
 </template>
 
