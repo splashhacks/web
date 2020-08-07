@@ -6,7 +6,7 @@
 
 <style scoped>
 .orangeBorder {
-  padding: 10px;
+  padding: 20px;
   background-color: var(--focus);
   border-radius: 20px;
   display: flex;

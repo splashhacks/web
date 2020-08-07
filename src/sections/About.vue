@@ -8,7 +8,7 @@
     <div style="display: flex">
       <OrangeBorder>
         <div class="inside">
-          <h1>What Sets Us Apart</h1>
+          <h2>What Sets Us Apart</h2>
           <p1>
             While most online Hackathons are great experiences for learning,
             testing out new ideas, and advancing technical skills, they tend to
@@ -43,9 +43,10 @@ export default {
 </script>
 <style scoped>
 .inside {
-  background-color: var(--sky);
+  background-color: var(--sand-light);
   border-radius: 10px;
   text-align: left;
+  padding: 20px;
 }
 
 .sub {

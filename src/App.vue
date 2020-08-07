@@ -45,13 +45,21 @@ h1 {
   color: var(--splash-light);
   font-size: 35pt;
   text-transform: uppercase;
-  margin: 20px;
+  margin: 15px;
+}
+
+h2 {
+  color: var(--splash-light);
+  font-size: 30pt;
+  text-transform: uppercase;
+  margin: 15px;
 }
 
 p1 {
   font-size: 20pt;
   display: block;
-  margin: 20px;
+  margin: 15px;
+  color: var(--splash-black);
 }
 
 .waterWrapper {
@@ -86,6 +94,7 @@ p1 {
 :root {
   --splash-light: #3fb1ea;
   --splash-dark: #003c7e;
+  --splash-black: #002042;
   --focus: #fba919;
   --sand-light: #f9ce8a;
   --sand-dark: #cea876;
