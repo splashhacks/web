@@ -1,6 +1,6 @@
 <template>
   <Section name="team">
-    <h1 style="color: white">SplashHacks Team</h1>
+    <h1 style="color: var(--sky)">SplashHacks Team</h1>
     <div class="teamCards">
       <TeamCard
         image="./profileImages/swerd.jpeg"
@@ -72,7 +72,7 @@ export default {
   text-align: center;
   display: grid;
   text-align: left;
-  background-color: white;
+  background-color: var(--sky);
   border-radius: 20px;
   padding: 20px;
   margin: 20px 0px 20px 0px;
