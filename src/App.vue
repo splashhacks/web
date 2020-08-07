@@ -94,6 +94,7 @@ p1 {
   --splash-light: #3fb1ea;
   --splash-dark: #003c7e;
   --splash-black: #002042;
+  --splash-mute: #cbd4df;
   --focus: #fba919;
   --sand-light: #f9ce8a;
   --sand-dark: #cea876;
