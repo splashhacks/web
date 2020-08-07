@@ -13,7 +13,7 @@
       </a>
     </div>
     <div style="grid-row: 1; text-align: left">
-      <h2 class="name">{{name}}</h2>
+      <h3 class="name">{{name}}</h3>
       <p class="position">{{position}}</p>
     </div>
   </div>
@@ -39,7 +39,7 @@
 }
 
 .position {
-  padding:  0px 5px;
+  padding-right: 5px;
   margin: 0px;
 }
 
