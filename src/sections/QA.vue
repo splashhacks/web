@@ -1,5 +1,6 @@
 <template>
   <Section name="faq">
+    <h1 style="color: white;">Frequently asked questions</h1>
     <div class="faq">
       <FAQParts
         question="What are hackathons?"
