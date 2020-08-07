@@ -55,10 +55,10 @@ export default {
 }
 
 #headerLinksContainer {
-backdrop-filter: blur(80px); 
+  backdrop-filter: blur(80px); 
   margin: 8px;
   border-radius: 20px;
-  background-color: rgb(0,60,126, .7e);
+  background-color: rgb(0,60,126, .70);
   float: right;
 }
 #headerImageContainer {
