@@ -1,8 +1,8 @@
 <template>
  <div>
-     <button>{{question}}</button>
-    <div>
-
+     <button class="accordionSection" onclick="showResponse()">{{question}}</button>
+    <div class="slidePanel">
+        <p>{{response}}</p>
     </div>
  </div>
 
@@ -14,7 +14,7 @@
 }
 
 .slidePanel {
-color:
+
 }
 
 </style>
