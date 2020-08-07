@@ -47,6 +47,12 @@ export default {
 .content {
   padding: 75px;
 }
+@media screen and (max-width: 720px) {
+  .content {
+  padding: 18px;
+  }
+  
+}
 
 .stripeLeft {
   font-weight: 800;

@@ -4,7 +4,7 @@
       <div style="margin-top: 20pt">
         <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
       </div>
-      <div style="display: inline-flex;">
+      <div class="wrap">
         <h1 style="margin: 10pt">November 6-8</h1>
         <RegisterButton style="margin: 10pt;" />
         
@@ -63,6 +63,19 @@ p1 {
     rgba(63, 177, 234, 0.5) 100%
   );
 }
+
+.wrap {
+  display: inline-flex;
+
+}
+
+@media screen and (max-width: 720px) {
+  .wrap {
+    display: block;
+  }
+  
+}
+
 
 .background {
   background: rgb(2, 0, 36);

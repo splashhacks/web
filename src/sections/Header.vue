@@ -78,6 +78,8 @@ export default {
   #headerLinksContainer {
     display: none;
   }
-  
+  #headerImage {
+    display: none;
+  }
 }
 </style>
