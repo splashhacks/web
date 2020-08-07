@@ -54,7 +54,7 @@ export default {
   top: 0;
 }
 
-.headerLinksContainer {
+#headerLinksContainer {
   backdrop-filter: blur(80px);
   margin: 8px;
   border-radius: 20px;
@@ -75,8 +75,9 @@ export default {
   transform: translateY(-50%);
 }
 @media screen and (max-width: 720px) {
-  #headerImageContainer {
+  #headerLinksContainer {
     display: none;
   }
+  
 }
 </style>
