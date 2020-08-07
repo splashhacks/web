@@ -7,8 +7,11 @@
       <div style="display: inline-flex;">
         <h1 style="margin: 10pt">November 6-8</h1>
         <RegisterButton style="margin: 10pt;" />
+        
       </div>
+    <DownArrow/>
     </div>
+ 
     <div class="waterWrapper">
       <Home />
     </div>
@@ -18,12 +21,14 @@
 <script>
 import Home from "./pages/Home.vue";
 import RegisterButton from "./components/RegisterButton.vue";
+import DownArrow from "./components/DownArrow.vue"
 
 export default {
   name: "App",
   components: {
     Home,
     RegisterButton,
+    DownArrow,
   },
 };
 </script>
