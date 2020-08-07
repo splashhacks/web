@@ -7,7 +7,7 @@
   position:relative;
   color: white;
   font-size: 20px;
-  margin-top: 16px;
+  margin-top: 8px;
 
   padding-left: 8px;
 }
@@ -17,7 +17,7 @@
   position: absolute;
   width: 100%;
   height: 2px;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   transform: scaleX(0);
   background-color:white;
@@ -27,7 +27,7 @@
 
 .link:hover::before {
   visibility: visible;
-  transform: scaleX(1);
+  transform: scaleX(.6);
 }
 
 </style>
