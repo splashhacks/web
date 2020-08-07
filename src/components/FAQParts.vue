@@ -16,15 +16,16 @@
 .accordionSection:after {
 
 }
-.bruh {
-    color:green;
-}
 .isInactive {
-max-height:null;
+color:green;
+transition:1s;
+height:0px;
+text-overflow: clip;
 }
 
 .isActive {
-max-height:10px;
+color:red;
+transition:1s;
 }
 
 </style>
@@ -35,35 +36,30 @@ max-height:10px;
 </script>
 <script>
 export default {
-data: {
+data() {
+    return {
     panelObject: { 
         isInactive: true,
         isActive: false
     }
+    }
 },
-computed: {
-    activitySwitch () {
-        if (isInactive = true) {
-            panelObject.isInactive = false;
-            panelObject.isActive = true;
-        } else {
-            panelObject.isInactive = true;
-            panelObject.isActive = false;
-        }
+methods: {
+    activitySwitch() {
+        console.log("henry is epic")
+        if (this.panelObject.isInactive == true) {
+            console.log("Henry is a nice guy")
+                this.panelObject.isInactive = false;
+                this.panelObject.isActive = true; 
+                }
+        else {
+                this.panelObject.isInactive = true;
+                this.panelObject.isActive = false;
+        } 
     }
 },
   props: ["question", "response"],
-  methods: {
-    showResponse() {
-        this.className = "bruh"
-    /* this.classList.toggle("active")
-    var panel = this.nextElementSibling;
-    if (panel.className.includes("Shown")){
-    panel.className = panel.ClassName.replace("Shown", "");
-    } else {
-    panel.className += "Shown" */
-}
-  }
+
 };
 
 </script>
