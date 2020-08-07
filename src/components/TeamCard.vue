@@ -31,6 +31,7 @@
 .card {
   display: grid;
   grid-template-columns: 100px 40px calc(100% - 140px);
+  /* padding-left: 10px; */
 }
 
 .name {
@@ -38,6 +39,7 @@
 }
 
 .position {
+  padding:  0px 5px;
   margin: 0px;
 }
 

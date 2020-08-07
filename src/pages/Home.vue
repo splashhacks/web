@@ -6,6 +6,7 @@
       <Prizes />
       <QA />
       <Team />
+      <Ambassadors />
       <div>
         <RegisterButton style="color:white; border-color: white" />
       </div>
