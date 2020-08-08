@@ -12,6 +12,13 @@
     </div>
     <div class="waterWrapper">
       <Home />
+      <div>
+        <CreditBar />
+        <svg viewBox="0 0 30 5 " class="sandSVG">
+          <ellipse cx="10" cy="25" rx="25" ry="25" fill="var(--sand-dark)" />
+          <ellipse cx="25" cy="25" rx="25" ry="25" fill="var(--sand-light)" />
+        </svg>
+      </div>
     </div>
   </div>
 </template>
@@ -20,18 +27,26 @@
 import Home from "./pages/Home.vue";
 import RegisterButton from "./components/RegisterButton.vue";
 import DownArrow from "./components/DownArrow.vue";
+import CreditBar from "@/sections/CreditBar.vue";
 
 export default {
   name: "App",
   components: {
     Home,
     RegisterButton,
-    DownArrow
+    DownArrow,
+    CreditBar
   }
 };
 </script>
 
 <style>
+.sandSVG {
+  width: 100%;
+  left: 0;
+  background: none;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

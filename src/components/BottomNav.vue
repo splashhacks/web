@@ -1,6 +1,6 @@
 <template>
   <div class="bottomCredits">
-    <img alt="SplashHacks Logo" src="@/assets/logo.png" style=" width: 15vw;" />
+    <img src="@/assets/logo.png" alt="SplashHacks Logo" style=" width: 10vw;" />
     <a :href="linkedin" class="socialButton">
       <img src="@/assets/linkedin.svg" />
     </a>
@@ -13,9 +13,9 @@
 <style scoped>
 .bottomCredits {
   backdrop-filter: blur(80px);
-  margin: 16px;
+  margin: 30px;
   border-radius: 20px;
-  background-color: var(--sand-light);
+  background-color: rgb(256, 256, 256);
   float: center;
   bottom: 0;
   padding: 10px;

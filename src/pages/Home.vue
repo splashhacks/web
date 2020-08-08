@@ -9,7 +9,6 @@
       <Ambassadors />
       <div>
         <RegisterButton style="color:white; border-color: white" />
-        <CreditBar />
       </div>
     </div>
   </div>
@@ -21,7 +20,6 @@ import QA from "@/sections/QA.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
 import About from "@/sections/About.vue";
 import Prizes from "@/sections/Prizes.vue";
-import CreditBar from "@/sections/CreditBar.vue";
 
 export default {
   components: {
@@ -30,8 +28,7 @@ export default {
     Team,
     RegisterButton,
     About,
-    Prizes,
-    CreditBar
+    Prizes
   }
 };
 </script>

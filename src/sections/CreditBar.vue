@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style scoped>
+.creditDiv {
+  position: absolute;
+  padding-left: 21vw;
+}
+
 .section {
   margin: 0px 0px 100px 0px;
 }
