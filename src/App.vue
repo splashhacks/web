@@ -26,8 +26,8 @@ export default {
   components: {
     Home,
     RegisterButton,
-    DownArrow,
-  },
+    DownArrow
+  }
 };
 </script>
 
@@ -45,6 +45,12 @@ h1 {
   font-size: 35pt;
   text-transform: uppercase;
   margin: 15px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 25pt;
+  }
 }
 
 h2 {
