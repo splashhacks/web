@@ -14,8 +14,9 @@
   height: 30px;
   width: 30px;
   transform: translateX(-50%) scale(2);
-  animation: MoveUpDown 1s linear infinite;
-  transition: 200ms;
+  animation: MoveUpDown 1.3s linear infinite;
+  transition: 10ms;
+  animation-delay: 1s;
 }
 :hover.downArrow {
   transform: translateX(-50%) scale(3);
