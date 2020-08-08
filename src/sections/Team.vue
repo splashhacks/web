@@ -1,6 +1,7 @@
 <template>
   <Section name="team">
-    <h1 style="color: var(--sky)">SplashHacks Team</h1>
+    <h2 style="color:var(--sky)">Core Team</h2>
+   <!-- <h2 style="color:var(--sky)">Judges</h2> -->
     <div class="teamCards">
       <TeamCard
         image="./profileImages/swerd.jpeg"
@@ -53,16 +54,64 @@
         linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
       />
     </div>
+    <div></div>
+    <h2 style="color:var(--sky)">Ambassadors</h2>
+    <div class="ambassadorCards">
+      <Ambassador
+       image="./profileImages/jason.jpeg"
+        name="Jason Telanoff"
+        instagram="https://www.instagram.com/json_t/"
+        github="https://github.com/jasonTelanoff"
+        linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
+      />
+      <Ambassador
+       image="./profileImages/jason.jpeg"
+        name="Jason Telanoff"
+        instagram="https://www.instagram.com/json_t/"
+        github="https://github.com/jasonTelanoff"
+        linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
+      />
+      <Ambassador
+       image="./profileImages/jason.jpeg"
+        name="Jason Telanoff"
+        instagram="https://www.instagram.com/json_t/"
+        github="https://github.com/jasonTelanoff"
+        linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
+      />
+      <Ambassador
+       image="./profileImages/jason.jpeg"
+        name="Jason Telanoff"
+        instagram="https://www.instagram.com/json_t/"
+        github="https://github.com/jasonTelanoff"
+        linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
+      />
+      <Ambassador
+       image="./profileImages/jason.jpeg"
+        name="Jason Telanoff"
+        instagram="https://www.instagram.com/json_t/"
+        github="https://github.com/jasonTelanoff"
+        linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
+      />
+      <Ambassador
+       image="./profileImages/jason.jpeg"
+        name="Jason Telanoff"
+        instagram="https://www.instagram.com/json_t/"
+        github="https://github.com/jasonTelanoff"
+        linkedin="https://www.linkedin.com/in/jason-telanoff-5a3767198/"
+      />
+    </div>
   </Section>
 </template>
 
 <script>
 import Section from "@/components/Section.vue";
 import TeamCard from "@/components/TeamCard.vue";
+import Ambassador from "@/components/Ambassador.vue";
 export default {
   components: {
     TeamCard,
     Section,
+    Ambassador,
   },
 };
 </script>
@@ -77,16 +126,33 @@ export default {
   padding: 20px;
   margin: 20px 0px 20px 0px;
 }
+.ambassadorCards {
+  text-align: center;
+  display: grid;
+  text-align: left;
+  background-color: var(--sky);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
+  grid-template-columns: 20px 40px calc(100% - 140px);
 
-@media (min-width: 600px) {
+}
+
+@media (min-width: 0px) {
   .teamCards {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .ambassadorCards{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 900px) {
   .teamCards {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .ambassadorCards{
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 </style>
