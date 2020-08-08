@@ -43,7 +43,6 @@ export default {
 <style>
 .sandSVG {
   width: 100%;
-  left: 0;
   background: none;
 }
 
