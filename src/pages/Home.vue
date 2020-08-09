@@ -7,6 +7,7 @@
       <QA />
       <Team />
       <Ambassadors />
+
       <div>
         <RegisterButton style="color:white; border-color: white" />
       </div>
@@ -20,7 +21,6 @@ import QA from "@/sections/QA.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
 import About from "@/sections/About.vue";
 import Prizes from "@/sections/Prizes.vue";
-
 export default {
   components: {
     Header,
@@ -28,7 +28,7 @@ export default {
     Team,
     RegisterButton,
     About,
-    Prizes
+    Prizes,
   }
 };
 </script>

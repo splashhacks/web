@@ -29,6 +29,8 @@
 }
 
 .card {
+    z-index: 10;
+
   display: grid;
   grid-template-columns: 100px 40px calc(100% - 140px);
   /* padding-left: 10px; */

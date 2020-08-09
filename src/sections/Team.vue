@@ -1,6 +1,7 @@
 <template>
   <Section name="team">
     <h1 style="color: var(--sky)">SplashHacks Team</h1>
+    <Fish/>
     <div class="teamCards">
       <TeamCard
         image="./profileImages/swerd.jpeg"
@@ -59,10 +60,12 @@
 <script>
 import Section from "@/components/Section.vue";
 import TeamCard from "@/components/TeamCard.vue";
+import Fish from "@/components/Fish.vue";
 export default {
   components: {
     TeamCard,
     Section,
+    Fish,
   },
 };
 </script>
@@ -76,6 +79,7 @@ export default {
   border-radius: 20px;
   padding: 20px;
   margin: 20px 0px 20px 0px;
+  z-index: 10;
 }
 
 @media (min-width: 600px) {
