@@ -35,8 +35,8 @@ export default {
     Home,
     RegisterButton,
     DownArrow,
-    CreditBar
-  }
+    CreditBar,
+  },
 };
 </script>
 
@@ -117,7 +117,7 @@ p1 {
   --splash-mute: #cbd4df;
   --focus: #fba919;
   --sand-light: #f9ce8a;
-  --sand-dark: #cea876;
+  --sand-dark: #e0ae7f;
   --sky: #ffffff;
 }
 </style>
