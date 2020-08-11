@@ -12,9 +12,11 @@
         <img src="@/assets/instagram.svg" />
       </a>
     </div>
-    <div style="grid-row: 1; text-align: left">
-      <h3 class="name">{{name}}</h3>
-      <p class="position">{{position}}</p>
+    <div style="grid-row: 1; text-align: left;">
+      <div style="margin-top: 5px; display: grid">
+        <h4 class="name">{{name}}</h4>
+        <p3 class="position">{{position}}</p3>
+      </div>
     </div>
   </div>
 </template>
@@ -23,17 +25,15 @@
   height: 100%;
   width: 100%;
   border-radius: 10px;
-  height: 100px;
   object-fit: cover;
   grid-row: 1;
 }
 
 .card {
-    z-index: 10;
-
+  z-index: 10;
   display: grid;
   grid-template-columns: 100px 40px calc(100% - 140px);
-  /* padding-left: 10px; */
+  padding-left: 10px;
 }
 
 .name {

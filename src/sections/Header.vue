@@ -7,6 +7,7 @@
     </div>
     <div id="headerLinksContainer">
       <Link id="#about" name="About" class="headerButton" />
+      <Link id="#tracks" name="Track" class="headerButton" />
       <Link id="#prizes" name="Prizes" class="headerButton" />
       <Link id="#faq" name="FAQ" class="headerButton" />
       <Link id="#team" name="Team" class="headerButton" />

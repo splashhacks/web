@@ -68,10 +68,16 @@ h1 {
 }
 
 h2 {
-  color: var(--splash-light);
-  font-size: 30pt;
+  color: var(--sky);
+  font-size: 35pt;
   text-transform: uppercase;
   margin: 15px;
+}
+
+h3 {
+  font-size: 30pt;
+  color: var(--sky);
+  /* text-transform: uppercase; */
 }
 
 p1 {
@@ -79,6 +85,13 @@ p1 {
   display: block;
   margin: 15px;
   color: var(--splash-black);
+}
+
+p2 {
+  font-size: 16pt;
+  display: block;
+  margin: 15px;
+  color: var(--sky);
 }
 
 .waterWrapper {

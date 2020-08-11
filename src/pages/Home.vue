@@ -3,11 +3,11 @@
     <Header />
     <div class="content">
       <About />
+      <Tracks />
       <Prizes />
       <QA />
       <Team />
-      <Ambassadors />
-
+      <!-- <Ambassadors /> -->
       <div>
         <RegisterButton style="color:white; border-color: white" />
       </div>
@@ -21,6 +21,7 @@ import QA from "@/sections/QA.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
 import About from "@/sections/About.vue";
 import Prizes from "@/sections/Prizes.vue";
+import Tracks from "@/sections/Tracks.vue";
 export default {
   components: {
     Header,
@@ -29,7 +30,8 @@ export default {
     RegisterButton,
     About,
     Prizes,
-  }
+    Tracks,
+  },
 };
 </script>
 
