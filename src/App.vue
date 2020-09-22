@@ -2,10 +2,14 @@
   <div id="app" class="background">
     <div style="height: 100vh; z-index: 20;">
       <div style="margin-top: 20pt">
-        <img alt="Splash Mountain" src="./assets/logo.png" style=" width: 50vw;" />
+        <img
+          alt="Splash Mountain"
+          src="./assets/logo.png"
+          style=" width: 50vw;"
+        />
       </div>
       <div class="wrap">
-        <h1 style="margin: 10pt">November 6-8</h1>
+        <h1 style="margin: 10pt">Spring 2020</h1>
         <RegisterButton style="margin: 10pt;" />
       </div>
       <DownArrow />
